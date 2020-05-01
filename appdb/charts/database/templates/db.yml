@@ -14,7 +14,7 @@ spec:
      spec:
        initContainers:
        - name: init-mysql
-         image: pawanitzone/mydb:59
+         image: mysql:5.7
          command:
          - bash
          - "-c"
